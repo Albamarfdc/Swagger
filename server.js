@@ -8,7 +8,7 @@ import loginRoutes from './config/routes/login.routes.js';
 import userRoutes from './config/routes/user.routes.js';
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 swagger(app); // se pasa la aplicacion express a la funcion swagger para mostrar la documentacion de la API
 app.use(express.json());
